@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Errors -->
+    <string name="app_name">BLE</string>
+    <string name="ble_not_supported">BLE not supported on this device</string>
+    <string name="bt_unavailable">Bluetooth unavailable</string>
+    <string name="bt_disabled">Bluetooth disabled, turn on and restart</string>
+    <!-- Scan -->
+    <string name="action_scan">SCAN</string>
+    <string name="action_stop">STOP</string>
+    <!-- Device -->
+    <string name="read_humidity_value">Read Humidity Value</string>
+    <string name="read_temperature_value">Read Temperature Value</string>
+</resources>

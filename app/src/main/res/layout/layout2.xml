@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="228dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Humidity Value:"
+        android:textColor="#1A12DC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="117dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Tempriture Value:"
+        android:textAlignment="viewStart"
+        android:textColor="#170EE3"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="388dp"
+        android:alpha="0.6"
+        android:background="#63B4D8"
+        android:text="Xiaomi Humidity and Temprture readings"
+        android:textColor="#090000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="432dp"
+        android:layout_height="445dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-9dp"
+        android:alpha=".36"
+        android:src="@android:drawable/checkbox_off_background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="-41dp"
+        android:layout_marginBottom="478dp"
+        android:alpha="0.8"
+        android:src="@drawable/img7" />
+
+</RelativeLayout>

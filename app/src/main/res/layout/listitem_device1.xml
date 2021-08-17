@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/device_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/device_address1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/device_distance1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp" />
+
+    <TextView
+            android:id="@+id/device_Tempreture1"
+            android:layout_width="fill_parent"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Tempreture value:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/device_Humidity1"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Humidity value:"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>
